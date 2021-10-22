@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: petclinic
-        image: quay.io/solo-io/petclinic:latest
+        image: 681679478194.dkr.ecr.us-east-1.amazonaws.com/myworkingrepo:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
